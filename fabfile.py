@@ -35,3 +35,6 @@ def env_test():
 
 def env_live():
     pass
+
+def deploy(*args, **kwargs):
+    commands.deploy(*args, **kwargs)
