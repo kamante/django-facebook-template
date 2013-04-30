@@ -10,7 +10,7 @@ env.virtualenv_settings = VirtualEnvSettings()
 def env_test():
     env.hosts = [""]
     env.user = "{{ project_name }}"
-    env.base_dir = ""
+    env.base_dir = "/home/{{ project_name }}/app"
 
     env.django_settings.update(
         settings_file="localsettings_test.py",
@@ -35,3 +35,6 @@ def env_test():
 
 def env_live():
     pass
+
+def deploy(*args, **kwargs):
+    commands.deploy(*args, **kwargs)
