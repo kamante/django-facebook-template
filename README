@@ -5,6 +5,9 @@ A simple base template skelton for a django project using the following stack:
 - South
 - psycopg
 - django-compressor
+- facepy
+
+
 
 
 Installation
