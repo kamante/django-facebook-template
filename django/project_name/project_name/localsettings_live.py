@@ -25,3 +25,6 @@ COMPRESS_PRECOMPILERS = (
 
 STATIC_ROOT = os.path.join(BASE_DIR, '..', '..', '..', 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, '..', '..', '..', '..', '..', 'media')
+
+FACEBOOK_APP_ID='App ID here'
+FACEBOOK_API_SECRET='App Secret here'

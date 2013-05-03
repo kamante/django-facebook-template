@@ -1,6 +1,10 @@
 Release Log
 ===========
 
+0.4
+_____
+Added FB keys to context
+
 0.3
 _____
 Added support for facepy
