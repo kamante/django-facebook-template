@@ -9,7 +9,7 @@ A simple base template skelton for a django project using the following stack:
 
 Installation
 ------------
-django-admin.py startproject --template https://github.com/kamante/django-simple-template/zipball/master --extension py,txt PROJECT_NAME
+django-admin.py startproject --template https://github.com/kamante/django-compressor-template/zipball/master --extension py,txt PROJECT_NAME
 
 
 
