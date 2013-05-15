@@ -3,6 +3,8 @@ import os
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
+ALLOWED_HOSTS = ('{{ project_name }}.com',)
+
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 DATABASES = {
